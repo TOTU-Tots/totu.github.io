@@ -7,4 +7,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  site: 'https://totu-tots.github.io/totu.github.io/',
+  base: '/totu.github.io/',
 });

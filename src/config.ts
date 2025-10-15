@@ -1,92 +1,128 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Dylan LAGARDE",
+  title: "Développeur Full Stack",
+  description: "Portfolio de Dylan LAGARDE",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "dylan.lagarde25@gmail.com",
+    linkedin: "https://www.linkedin.com/in/dylanlagarde/",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Développeur web avec 4 ans d’expérience dans des environnements full stack. J’ai participé à des projets variés : refonte de CRM/ERP, développement d’applications web, création de chatbots.",
+  skills: ["PHP", "Java", "Javascript", "C#", "HMTL", "CSS"],
+  frameworks: ["React", "Node.js", "Spring Boot", "Angular", "Jquery", "Ajax"],
+  tools: ["GIT", "Docker", "Postman", "Firebase"],
+  bdds: ["MySQL", "PostgreSQL", "MongoDB", "Firestore"],
+  others: ["Agile", "Kanban"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "LoraWan pour l’IOT",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Application Web permettant de mesurer l'utilisation des équipements utilisant des puces LoRa par l'iut de Blagnac avec une HeatMap. Effectué dans le cadre d'un projet universitaire.",
+      link: "",
+      skills: ["HTML", "CSS", "Node.js"],
+      imgs:["/src/images/HeatMap.png"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Gold Finder",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Jeu mobile dont le but est de trouver les pépites cachées dans des grilles de plusieurs dimensions. Effectué dans le cadre d'un projet universitaire.",
+      link: "",
+      skills: ["React", "TypeScript", "Ionic", "Firebase"],
+      imgs:[],
     },
     {
-      name: "ExtensionKit",
+      name: "Bank'Root",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Application de suivi des dépenses. Effectué dans le cadre d'un projet universitaire.",
+      link: "",
+      skills: ["React", "TypeScript", "Expo", "Firebase"],
+      imgs:["/src/images/BankRoot1.jpg","/src/images/BankRoot2.jpg","/src/images/BankRoot3.png"],
+    },
+    {
+      name: "Blagnac Race",
+      description:
+        "Application mobile de course à pied avec suivit GPS. Effectué dans le cadre d'un projet universitaire.",
+      link: "",
+      skills: ["Android", "Java"],
+      imgs:[],
+    },
+    {
+      name: "SoundBox",
+      description:
+        "Une application mobile avec des sons pré-enregistrés",
+      link: "",
+      skills: ["React", "TypeScript", "Ionic" ],
+      imgs:[],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Alyo Consulting",
+      title: "Développeur junior",
+      dateRange: "2022 - Fin 2023",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Participation au développement full stack d’une application web de gestion d’entreprise et de comptabilité (PHP, JavaScript).",
+        "Conception et maintenance d’un logiciel interne en Java avec interface Angular.",
+        
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Jlogiciels",
+      title: "Développeur logiciel",
+      dateRange: "2019 - 2022",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Refonte complète d’un logiciel CRM/ERP sur mesure destiné à la gestion d’entreprise (PHP, JavaScript).",
+        "Développement d’un espace client web interactif (full stack PHP, JavaScript), permettant la gestion autonome par les clients.",
+        "Personnalisation et évolution de logiciels métiers existants selon les besoins spécifiques des clients.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Chap'ngo",
+      title: "",
+      dateRange: "2019",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Réalisation d’une veille technologique sur les solutions d’intelligence artificielle et les chatbots.",
+        "Création d’un chatbot à l’aide de Dialogflow et Firebase",
+      ],
+    },
+    {
+      company: "Isociel",
+      title: "",
+      dateRange: "2018",
+      bullets: [
+        "Développement d’une application web de gestion de serveur (PHP, MySQL).",
+        "Paramétrage de postes de travail (Windows 10).",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Ynov Toulouse",
+      degree: "Master Développement Logiciel, Mobile & IoT",
+      dateRange: "2020 - 2022",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "IUT Blagnac",
+      degree: "Licence Professionnelle APSIO",
+      dateRange: "2019 - 2020",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        
+      ],
+    },
+    {
+      school: "Lycée Ozenne",
+      degree: "BTS Services informatiques aux organisations",
+      dateRange: "2017 - 2019",
+      achievements: [
+        
       ],
     },
   ],
+
+  pitch: "En dehors de mon travail, j’aime découvrir, tester et vivre de nouvelles expériences.Les jeux vidéo occupent une place importante dans mon quotidien : au-delà du simple divertissement, ils nourrissent ma créativité, développent ma réflexion stratégique et renforcent mon sens du travail en équipe.La musique, elle, m’accompagne partout. Même si je ne pratique plus, j’ai toujours de la musique dans les oreilles — elle rythme mes journées et m’aide souvent à trouver l’inspiration.J’ai eu la chance de faire un saut en parachute : une expérience marquante qui m’a permis de sortir de ma zone de confort."
+
 };
