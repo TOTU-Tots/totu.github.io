@@ -21,7 +21,7 @@ export const siteConfig = {
         "Application Web permettant de mesurer l'utilisation des équipements utilisant des puces LoRa par l'iut de Blagnac avec une HeatMap. Effectué dans le cadre d'un projet universitaire.",
       link: "",
       skills: ["HTML", "CSS", "Node.js"],
-      imgs:["/src/images/HeatMap.png"],
+      imgs:["/totu.github.io/src/images/HeatMap.png"],
     },
     {
       name: "Gold Finder",
@@ -37,7 +37,7 @@ export const siteConfig = {
         "Application de suivi des dépenses. Effectué dans le cadre d'un projet universitaire.",
       link: "",
       skills: ["React", "TypeScript", "Expo", "Firebase"],
-      imgs:["/src/images/BankRoot1.jpg","/src/images/BankRoot2.jpg","/src/images/BankRoot3.png"],
+      imgs:["/totu.github.io/src/images/BankRoot1.jpg","/totu.github.io/src/images/BankRoot2.jpg","/totu.github.io/src/images/BankRoot3.png"],
     },
     {
       name: "Blagnac Race",
